@@ -12,7 +12,7 @@ const Stage = props => (
 
 const Dashboard = (props) =>(
     <Row>
-        {props.stages.map(stage => (<Stage {...stage} />))}
+        {props.stages.map(stage => (<Stage {...stage} size = {12/props.stages.length} />))}
     </Row>
 );
 

@@ -1,9 +1,13 @@
 .ws-dashboard__stage-title {
     font-size: 18px;
-    color: aquamarine;
+    color:black;
+    margin: 5px;
 
 }
 
 .ws-dashboard__stage-cards {
-    
+    background-color: black;
+    color: aqua;
+    margin: 5px;
+    border-radius: 5px;
 }
